@@ -285,7 +285,6 @@ echo "---------------------------------------------------------------"
 
 flatpaks=(
     "com.spotify.Client"
-    "com.mattjakeman.ExtensionManager"
 )
 
 for flatpak in "${flatpaks[@]}"; do
@@ -294,6 +293,15 @@ for flatpak in "${flatpaks[@]}"; do
     echo "----------------------------------"
     flatpak install flathub ${flatpak}
 done
+
+# Installing Gnome ExtensionManager without using Gnome would be funny.
+if [[ "$1" == "--gnome" ]]; then
+    echo "----------------------------------"
+    echo "Installing Gnome specific flatpak: Gnome ExtensionManager"
+    echo "----------------------------------"
+    flatpak install flathub com.mattjakeman.ExtensionManager
+fi
+
 
 echo "---------------------------------------------------------------"
 
