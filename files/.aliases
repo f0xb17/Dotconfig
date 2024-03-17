@@ -1,0 +1,8 @@
+alias neo="neofetch"
+alias y="yay -S --noconfirm"
+alias ys="yay -Scc"
+alias yc="yay -Yc"
+alias remove="sudo pacman -Rcns"
+alias install="sudo pacman -S --needed"
+alias update="sudo pacman -Syu && yay"
+alias c="clear"
