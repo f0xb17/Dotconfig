@@ -238,7 +238,7 @@ sdks=(
     "clang"
     "ninja"
     "gdb"
-    "nodejs"
+    "nodejs-lts-iron"
     "npm"
     "python"
 )
