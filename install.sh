@@ -311,7 +311,9 @@ aur_apps=(
     "visual-studio-code-bin"
     "intellij-idea-ultimate-edition"
     "brother-mfc-l2710dw"
-    "microsoft-edge-stable-bin"
+    "microsoft-edge-dev-bin"
+    "brave-bin"
+    "betterbird-de-bin"
 )
 
 aur_sdks=(
