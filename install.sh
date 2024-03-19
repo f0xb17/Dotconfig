@@ -314,6 +314,7 @@ aur_apps=(
     "microsoft-edge-dev-bin"
     "brave-bin"
     "betterbird-de-bin"
+    "threema-desktop"
 )
 
 aur_sdks=(
