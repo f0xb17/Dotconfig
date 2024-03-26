@@ -311,7 +311,7 @@ aur_apps=(
     "visual-studio-code-bin"
     "intellij-idea-ultimate-edition"
     "brother-mfc-l2710dw"
-    "microsoft-edge-dev-bin"
+    "microsoft-edge-stable-bin"
     "brave-bin"
     "betterbird-de-bin"
     "threema-desktop"
