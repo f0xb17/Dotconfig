@@ -231,6 +231,7 @@ apps=(
     "discord"
     "gufw"
     "tilix"
+    "nvidia-settings"
 )
 
 sdks=(
@@ -315,6 +316,7 @@ aur_apps=(
     "brave-bin"
     "betterbird-de-bin"
     "threema-desktop"
+    "etcher-bin"
 )
 
 aur_sdks=(
