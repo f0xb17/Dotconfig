@@ -239,7 +239,7 @@ sdks=(
     "clang"
     "ninja"
     "gdb"
-    "nodejs-lts-iron"
+    "nodejs"
     "npm"
     "python"
 )
@@ -315,7 +315,6 @@ aur_apps=(
     "microsoft-edge-stable-bin"
     "brave-bin"
     "betterbird-de-bin"
-    "threema-desktop"
     "etcher-bin"
 )
 
