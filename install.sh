@@ -229,7 +229,6 @@ echo "-------------------------------------------------"
 apps=(
     "bitwarden"
     "discord"
-    "gufw"
     "tilix"
     "nvidia-settings"
 )
