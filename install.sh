@@ -310,7 +310,6 @@ echo "---------------------------------------------------------------"
 
 aur_apps=(
     "visual-studio-code-bin"
-    "intellij-idea-ultimate-edition"
     "brother-mfc-l2710dw"
     "brave-bin"
     "betterbird-de-bin"
