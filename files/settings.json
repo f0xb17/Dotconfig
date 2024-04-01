@@ -1,0 +1,111 @@
+{
+    // Standard VS-Code Settings
+    "editor.fontFamily": "'BlexMono Nerd Font Mono', 'monospace', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13.5,
+    "editor.fontWeight": 500,
+    "editor.lineHeight": 1.7,
+    "editor.guides.bracketPairs": "active",
+    "editor.cursorBlinking": "solid",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": [
+              "comment",
+              "entity.name.type.class", // class names
+              "keyword", // import, export, return
+              "constant", // String, Number, Boolean..., this, super
+              "storage.modifier", // static keyword
+              "storage.type.class.js", // class keyword
+            ],
+            "settings": {
+              "fontStyle": "italic bold" // comments are italic
+            }
+          },
+          {
+            "scope": [
+              "invalid",
+              "keyword.operator",
+              "constant.numeric.css",
+              "keyword.other.unit.px.css",
+              "constant.numeric.decimal.js",
+              "constant.numeric.json"
+            ],
+            "settings": {
+              // following will be excluded from italics (VSCode has some defaults for italics)
+              "fontStyle": "bold"
+            }
+          }
+        ]
+      },
+      "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+      },
+      "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+
+
+    "window.restoreWindows": "none",
+    "files.autoSave": "afterDelay",
+
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "workbench.iconTheme": "bearded-icons",
+    "workbench.statusBar.visible": false,
+    "workbench.colorCustomizations": {
+      "editorLineNumber.foreground": "#9b9b9b",
+    },    
+
+    // Plugin-Settings
+    "cmake.configureOnOpen": true,
+    "cmake.showOptionsMovedNotification": false,
+    "eslint.format.enable": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+
+    // APC Customize UI++ Settings
+    // "window.titleBarStyle": "native",
+    "window.menuBarVisibility": "toggle",
+    "apc.font.family": "BlexMono Nerd Font Mono",
+    "apc.electron": {
+        "vibrancy": "sidebar",
+        "backgroundColor": "rgba(255, 255, 255, .1)",
+        "visualEffectState": "active",
+        "titleBarStyle": "hidden",
+    },
+    "apc.activityBar": {
+        "position": "bottom",
+        "size": 40,
+        "itemSize": 32,
+        "itemMargin": 4.5,
+    },
+    "apc.listRow": {
+        "height": 24,
+        "fontSize": 11,
+    },
+    "apc.stylesheet": {
+        ".editor .title": "background: transparent !important;",
+        ".editor .title .label-container": "visibility: hidden;",
+        ".editor .scrollbar .slider": "visibility: hidden",
+        ".editor .scrollbar:hover .slider": "visibility: initial",
+        ".monaco-editor .scroll-decoration": "visibility: hidden",
+        ".monaco-scrollable-element>.shadow.top": "visibility: hidden",
+        ".inline-no-tabs-placeholder": "background: transparent !important;"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Delphi+ (Twilight)",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.editor.empty.hint": "hidden",
+    "redhat.telemetry.enabled": false,
+}
