@@ -229,6 +229,7 @@ apps=(
     "bitwarden"
     "discord"
     "nvidia-settings"
+    "flameshot"
 )
 
 sdks=(
