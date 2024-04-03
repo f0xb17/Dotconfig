@@ -34,9 +34,9 @@ cp -r files/nvidia.conf $HOME/.dotconf
 cp -r files/root.conf $HOME/.dotconf
 cp -r files/environment $HOME/.dotconf
 cp -r files/mkinitcpio.conf $HOME/.dotconf
-cp -r files/lazy.lua $HOME/.dotconf
-cp -r files/options.lua $HOME/.dotconf
-cp -r files/custom.lua $HOME/.dotconf
+# cp -r files/lazy.lua $HOME/.dotconf
+# cp -r files/options.lua $HOME/.dotconf
+# cp -r files/custom.lua $HOME/.dotconf
 
 echo "---------------------------------------------------------------"
 
@@ -104,7 +104,6 @@ packages=(
     "libheif"
     "ntfs-3g"
     "neofetch"
-    "neovim"
 )
 
 for package in "${packages[@]}"; do
@@ -152,8 +151,8 @@ echo "Performing LazyVim installation"
 echo "-------------------------------------------------"
 
 # Source: https://www.lazyvim.org/installation
-git clone https://github.com/LazyVim/starter ~/.config/nvim
-rm -rf ~/.config/nvim/.git
+# git clone https://github.com/LazyVim/starter ~/.config/nvim
+# rm -rf ~/.config/nvim/.git
 
 echo "---------------------------------------------------------------"
 
@@ -165,9 +164,9 @@ echo "-------------------------------------------------"
 
 ln -sf $HOME/.dotconf/.zshrc $HOME/
 ln -sf $HOME/.dotconf/.aliases $HOME/
-ln -sf $HOME/.dotconf/lazy.lua $HOME/.config/nvim/lua/config/
-ln -sf $HOME/.dotconf/options.lua $HOME/.config/nvim/lua/config/
-ln -sf $HOME/.dotconf/custom.lua $HOME/.config/nvim/lua/plugins/
+# ln -sf $HOME/.dotconf/lazy.lua $HOME/.config/nvim/lua/config/
+# ln -sf $HOME/.dotconf/options.lua $HOME/.config/nvim/lua/config/
+# ln -sf $HOME/.dotconf/custom.lua $HOME/.config/nvim/lua/plugins/
 sudo ln -sf $HOME/.dotconf/root.conf /etc/cmdline.d/
 sudo ln -sf $HOME/.dotconf/nvidia.conf /etc/modprobe.d/
 sudo ln -sf $HOME/.dotconf/environment /etc/
@@ -242,7 +241,6 @@ sdks=(
     "python"
     "jdk-openjdk"
     "kotlin"
-    "dotnet-sdk"
 )
 
 fonts=(
@@ -310,11 +308,13 @@ echo "---------------------------------------------------------------"
 # Installing Software from the AUR.
 
 aur_apps=(
+    "intellij-idea-ultimate-edition"
     "visual-studio-code-bin"
     "brother-mfc-l2710dw"
     "brave-bin"
     "betterbird-de-bin"
     "etcher-bin"
+    "localsend-bin"
 )
 
 aur_sdks=()
