@@ -242,6 +242,7 @@ sdks=(
     "python"
     "jdk-openjdk"
     "kotlin"
+    "go"
 )
 
 fonts=(
