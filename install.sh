@@ -47,7 +47,7 @@ if [[ "$1" == "--kde" ]]; then
     echo "Installing Flatpak for KDE"
     echo "-------------------------------------------------"
 
-    sudo pacman -S --needed --noconfirm flatpak xdg-desktop-portal xdg-desktop-portal-kde xdg-desktop-portal-gtk
+    sudo pacman -S --needed --noconfirm flatpak xdg-desktop-portal xdg-desktop-portal-kde xdg-desktop-portal-gtk Okular
     
     echo "---------------------------------------------------------------"
 fi
@@ -230,6 +230,8 @@ apps=(
     "discord"
     "nvidia-settings"
     "flameshot"
+    "ristretto"
+    "vlc"
 )
 
 sdks=(
@@ -287,6 +289,7 @@ echo "---------------------------------------------------------------"
 
 flatpaks=(
     "com.spotify.Client"
+    "com.anydesk.Anydesk"
 )
 
 for flatpak in "${flatpaks[@]}"; do
@@ -314,9 +317,7 @@ aur_apps=(
     "visual-studio-code-bin"
     "brother-mfc-l2710dw"
     "brave-bin"
-    "betterbird-de-bin"
     "etcher-bin"
-    "localsend-bin"
 )
 
 aur_sdks=()
