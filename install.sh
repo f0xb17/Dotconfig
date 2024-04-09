@@ -47,7 +47,7 @@ if [[ "$1" == "--kde" ]]; then
     echo "Installing Flatpak for KDE"
     echo "-------------------------------------------------"
 
-    sudo pacman -S --needed --noconfirm flatpak xdg-desktop-portal xdg-desktop-portal-kde xdg-desktop-portal-gtk Okular
+    sudo pacman -S --needed --noconfirm flatpak xdg-desktop-portal xdg-desktop-portal-kde xdg-desktop-portal-gtk okular spectacle kcalc
     
     echo "---------------------------------------------------------------"
 fi
@@ -104,6 +104,22 @@ packages=(
     "libheif"
     "ntfs-3g"
     "neofetch"
+    "zlib"
+    "zenity"
+    "zxing-cpp"
+    "xvidcore"
+    "xwaylandvideobridge"
+    "xorg-xwayland"
+    "wget"
+    "whois"
+    "vulkan-tools"
+    "usbutils"
+    "aspell"
+    "aspell-de"
+    "earlyoom"
+    "parted"
+    "highlight"
+    
 )
 
 for package in "${packages[@]}"; do
@@ -229,9 +245,9 @@ apps=(
     "bitwarden"
     "discord"
     "nvidia-settings"
-    "flameshot"
-    "ristretto"
+    "gwenview"
     "vlc"
+    "obs-studio"
 )
 
 sdks=(
