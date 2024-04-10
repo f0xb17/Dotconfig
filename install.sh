@@ -344,6 +344,7 @@ aur_apps=(
     "brother-mfc-l2710dw"
     "brave-bin"
     "etcher-bin"
+    "onlyoffice-bin"
 )
 
 aur_sdks=()
