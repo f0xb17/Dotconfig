@@ -49,6 +49,16 @@ if [[ "$1" == "--kde" ]]; then
 
     sudo pacman -S --needed --noconfirm flatpak xdg-desktop-portal xdg-desktop-portal-kde xdg-desktop-portal-gtk okular spectacle kcalc
     
+    cp -r files/kwin.sh $HOME/.dotconf
+    chmod a+x $HOME/.dotconf/kwin.sh
+    cp -r files/xorg.conf $HOME/.dotconf
+    
+    mkdir $HOME/.config/plasma-workspace
+    mkdir $HOME/.config/plasma-workspace/env
+    
+    ln -sf $HOME/.dotconf/kwin.sh $HOME/.config/plasma-workspace/env/
+    sudo ln -sf $HOME/.dotconf/xorg.conf /etc/X11/
+    
     echo "---------------------------------------------------------------"
 fi
 
@@ -119,7 +129,6 @@ packages=(
     "earlyoom"
     "parted"
     "highlight"
-    
 )
 
 for package in "${packages[@]}"; do
@@ -248,6 +257,7 @@ apps=(
     "gwenview"
     "vlc"
     "obs-studio"
+    "solaar"
 )
 
 sdks=(
