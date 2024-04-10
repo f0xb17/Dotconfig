@@ -122,7 +122,6 @@ packages=(
     "xorg-xwayland"
     "wget"
     "whois"
-    "vulkan-tools"
     "usbutils"
     "aspell"
     "aspell-de"
@@ -271,6 +270,7 @@ sdks=(
     "jdk-openjdk"
     "kotlin"
     "go"
+    "rust"
 )
 
 fonts=(
