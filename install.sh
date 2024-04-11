@@ -257,6 +257,9 @@ apps=(
     "vlc"
     "obs-studio"
     "solaar"
+    "chromium"
+    "libreoffice-fresh"
+    "libreoffice-fresh-de"
 )
 
 sdks=(
@@ -344,7 +347,6 @@ aur_apps=(
     "brother-mfc-l2710dw"
     "brave-bin"
     "etcher-bin"
-    "onlyoffice-bin"
 )
 
 aur_sdks=()
