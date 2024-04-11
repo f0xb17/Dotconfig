@@ -257,7 +257,6 @@ apps=(
     "vlc"
     "obs-studio"
     "solaar"
-    "chromium"
 )
 
 sdks=(
