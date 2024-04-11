@@ -258,8 +258,6 @@ apps=(
     "obs-studio"
     "solaar"
     "chromium"
-    "libreoffice-fresh"
-    "libreoffice-fresh-de"
 )
 
 sdks=(
