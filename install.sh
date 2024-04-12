@@ -128,6 +128,7 @@ packages=(
     "earlyoom"
     "parted"
     "highlight"
+    "neovim"
 )
 
 for package in "${packages[@]}"; do
