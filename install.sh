@@ -47,7 +47,7 @@ if [[ "$1" == "--kde" ]]; then
     echo "Installing Flatpak for KDE"
     echo "-------------------------------------------------"
 
-    sudo pacman -S --needed --noconfirm flatpak xdg-desktop-portal xdg-desktop-portal-kde xdg-desktop-portal-gtk okular spectacle kcalc
+    sudo pacman -S --needed --noconfirm flatpak xdg-desktop-portal xdg-desktop-portal-kde xdg-desktop-portal-gtk okular spectacle kcalc gwenview
     
     cp -r files/kwin.sh $HOME/.dotconf
     chmod a+x $HOME/.dotconf/kwin.sh
@@ -253,7 +253,6 @@ apps=(
     "bitwarden"
     "discord"
     "nvidia-settings"
-    "gwenview"
     "vlc"
     "obs-studio"
     "solaar"
