@@ -128,6 +128,9 @@ packages=(
     "earlyoom"
     "parted"
     "highlight"
+    "rsync"
+    "less"
+    "reflector"
 )
 
 for package in "${packages[@]}"; do
