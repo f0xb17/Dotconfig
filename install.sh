@@ -47,7 +47,7 @@ if [[ "$1" == "--kde" ]]; then
     echo "Installing Flatpak for KDE"
     echo "-------------------------------------------------"
 
-    sudo pacman -S --needed --noconfirm flatpak xdg-desktop-portal xdg-desktop-portal-kde xdg-desktop-portal-gtk okular spectacle kcalc gwenview
+    sudo pacman -S --needed --noconfirm flatpak xdg-desktop-portal xdg-desktop-portal-kde xdg-desktop-portal-gtk okular spectacle kcalc gwenview kvantum
     
     cp -r files/kwin.sh $HOME/.dotconf
     chmod a+x $HOME/.dotconf/kwin.sh
@@ -126,10 +126,7 @@ packages=(
     "aspell"
     "aspell-de"
     "earlyoom"
-    "parted"
-    "highlight"
     "rsync"
-    "less"
     "reflector"
 )
 
