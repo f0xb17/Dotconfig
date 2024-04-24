@@ -72,6 +72,22 @@ if [[ "$1" == "--cinnamon" ]]; then
     echo "---------------------------------------------------------------"
 fi
 
+if [[ "$1" == "--gnome" ]]; then
+    echo "-------------------------------------------------"
+    echo "Installing Pakes for Gnome"
+    echo "-------------------------------------------------"
+
+    sudo pacman -S --needed --noconfirm eog ghex gitg gnome-boxes
+
+    echo "-------------------------------------------------"
+    echo "Removing Gnome Standard Software"
+    echo "-------------------------------------------------"
+
+    sudo pacman -Rcns gnome-music totem yelp gnome-contacts gnome-clocks gnome-maps gnome-weather
+    
+    echo "---------------------------------------------------------------"
+fi
+
 if [[ "$1" == "--xfce" ]]; then
     echo "-------------------------------------------------"
     echo "Install Flatpak for Xfce"
@@ -404,10 +420,6 @@ echo "---------------------------------------------------------------"
 echo "----------------------------------"
 echo "Finishing"
 echo "----------------------------------"
-
-if [[ "$1" == "--gnome" ]]; then
-    sudo pacman -Rcns gnome-music totem yelp gnome-contacts gnome-clocks gnome-maps gnome-weather
-fi
 
 sudo mkinitcpio -P
 
