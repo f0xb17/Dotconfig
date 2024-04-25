@@ -83,7 +83,7 @@ if [[ "$1" == "--gnome" ]]; then
     echo "Removing Gnome Standard Software"
     echo "-------------------------------------------------"
 
-    sudo pacman -Rcns gnome-music totem yelp gnome-contacts gnome-clocks gnome-maps gnome-weather
+    sudo pacman -Rcns gnome-music totem yelp gnome-contacts gnome-clocks gnome-maps gnome-weather epiphany
     
     echo "---------------------------------------------------------------"
 fi
