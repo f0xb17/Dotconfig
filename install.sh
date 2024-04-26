@@ -273,6 +273,7 @@ apps=(
     "obs-studio"
     "solaar"
     "chromium"
+    "gufw"
 )
 
 sdks=(
