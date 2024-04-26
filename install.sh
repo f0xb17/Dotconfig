@@ -295,7 +295,6 @@ fonts=(
     "noto-fonts-emoji"
     "ttf-hack-nerd"
     "ttf-jetbrains-mono-nerd"
-    "ttf-ibmplex-mono-nerd"
 )
 
 for app in "${apps[@]}"; do
