@@ -77,7 +77,7 @@ if [[ "$1" == "--gnome" ]]; then
     echo "Installing Pakes for Gnome"
     echo "-------------------------------------------------"
 
-    sudo pacman -S --needed --noconfirm eog ghex gitg gnome-boxes
+    sudo pacman -S --needed --noconfirm eog ghex gnome-boxes
 
     echo "-------------------------------------------------"
     echo "Removing Gnome Standard Software"
@@ -284,8 +284,6 @@ sdks=(
     "python"
     "jdk-openjdk"
     "kotlin"
-    "go"
-    "rust"
 )
 
 fonts=(
@@ -331,6 +329,7 @@ echo "---------------------------------------------------------------"
 flatpaks=(
     "com.spotify.Client"
     "com.anydesk.Anydesk"
+    "io.github.shiftey.Desktop"
 )
 
 for flatpak in "${flatpaks[@]}"; do
