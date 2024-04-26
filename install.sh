@@ -272,6 +272,7 @@ apps=(
     "vlc"
     "obs-studio"
     "solaar"
+    "chromium"
 )
 
 sdks=(
@@ -356,7 +357,6 @@ aur_apps=(
     "intellij-idea-ultimate-edition"
     "visual-studio-code-bin"
     "brother-mfc-l2710dw"
-    "brave-bin"
     "etcher-bin"
 )
 
