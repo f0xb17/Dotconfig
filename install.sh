@@ -363,9 +363,7 @@ aur_apps=(
 
 aur_sdks=()
 
-aur_fonts=(
-    "sf-fonts"
-)
+aur_fonts=()
 
 for aur_app in "${aur_apps[@]}"; do
     echo "----------------------------------"
