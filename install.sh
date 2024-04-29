@@ -354,6 +354,7 @@ echo "---------------------------------------------------------------"
 # Installing Software from the AUR.
 
 aur_apps=(
+    "intellij-idea-ultimate-edition"
     "intellij-idea-ultimate-edition-jre"
     "visual-studio-code-bin"
     "brother-mfc-l2710dw"
