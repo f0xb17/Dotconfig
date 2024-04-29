@@ -272,7 +272,6 @@ apps=(
     "vlc"
     "obs-studio"
     "solaar"
-    "chromium"
     "gufw"
 )
 
@@ -359,6 +358,7 @@ aur_apps=(
     "visual-studio-code-bin"
     "brother-mfc-l2710dw"
     "etcher-bin"
+    "brave-bin"
 )
 
 aur_sdks=()
