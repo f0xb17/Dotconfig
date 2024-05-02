@@ -28,3 +28,12 @@ echo "-------------------------------------------------"
 echo "Copying XORG.conf"
 cp -r files/xorg.conf $HOME/.dotconf
 sudo ln -sf $HOME/.dotconf/xorg.conf /etc/X11/
+
+
+echo "-------------------------------------------------"
+echo "Creating Shortcut"
+echo "-------------------------------------------------"
+
+echo "Change Meta-Key to Open Overview"
+kwriteconfig6 --file kwinrc --group ModifierOnlyShortcuts --key Meta "";
+kwriteconfig6 --file kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.kglobalaccel,/component/kwin,org.kde.kglobalaccel.Component,invokeShortcut,Overview";
