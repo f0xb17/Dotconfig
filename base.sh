@@ -29,7 +29,7 @@ packages=(
     "p7zip"
     "libheif"
     "ntfs-3g"
-    "neofetch"
+    "fastfetch"
     "zlib"
     "zenity"
     "zxing-cpp"
