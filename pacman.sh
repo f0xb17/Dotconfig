@@ -3,7 +3,6 @@
 apps=(
     "bitwarden"
     "discord"
-    "nvidia-settings"
     "vlc"
     "obs-studio"
     "solaar"
