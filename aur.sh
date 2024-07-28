@@ -1,19 +1,15 @@
 #!/bin/sh
 
 aur_apps=(
-    "intellij-idea-ultimate-edition"
-    "intellij-idea-ultimate-edition-jre"
     "visual-studio-code-bin"
     "brother-mfc-l2710dw"
     "etcher-bin"
-    "brave-bin"
     "zoom"
 )
 
 # ---------------------------------------------------------------------------
 
 aur_sdks=(
-    "swift-bin"
 )
 
 # ---------------------------------------------------------------------------
