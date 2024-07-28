@@ -57,7 +57,9 @@ fi
 
 # Installing oh-my-zsh
 
-./zsh.sh
+# ./zsh.sh
+
+chsh -s $(which zsh) # Setting zsh as standard shell. Root password needed!
 
 # ---------------------------------------------------------------------------
 
