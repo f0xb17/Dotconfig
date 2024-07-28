@@ -8,8 +8,6 @@ apps=(
     "solaar"
     "gufw"
     "alacritty"
-    "firefox-developer-edition-i18n-de"
-    "firefox-developer-edition"
 )
 
 # ---------------------------------------------------------------------------
