@@ -44,6 +44,7 @@ packages=(
     "earlyoom"
     "rsync"
     "reflector"
+    "bat"
 )
 
 for package in "${packages[@]}"; do
