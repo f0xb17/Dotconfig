@@ -6,6 +6,9 @@ aur_apps=(
     "etcher-bin"
     "zoom"
     "brave-bin"
+    "aic94xx-firmware"
+    "wd719x-firmware"
+    "upd72020x-fw"
 )
 
 # ---------------------------------------------------------------------------
