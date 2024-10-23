@@ -5,9 +5,9 @@ apps=(
     "discord"
     "vlc"
     "obs-studio"
-    "solaar"
     "gufw"
     "kitty"
+    "linux-firmware-qlogic"
 )
 
 # ---------------------------------------------------------------------------
