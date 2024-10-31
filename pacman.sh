@@ -6,7 +6,7 @@ apps=(
     "vlc"
     "obs-studio"
     "gufw"
-    "kitty"
+    "alacritty"
     "linux-firmware-qlogic"
     "firefox-developer-edition"
     "firefox-developer-edition-i18n-de"
