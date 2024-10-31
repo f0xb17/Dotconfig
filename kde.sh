@@ -5,6 +5,7 @@ echo "Package Installation: KDE Plasma"
 echo "-------------------------------------------------"
 
 sudo pacman -S --needed --noconfirm flatpak xdg-desktop-portal xdg-desktop-portal-kde xdg-desktop-portal-gtk okular spectacle kcalc gwenview kvantum
+sudo pacman -Rcns kate
 
 echo "-------------------------------------------------"
 echo "Creating Shortcut"
