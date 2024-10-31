@@ -8,7 +8,8 @@ apps=(
     "gufw"
     "kitty"
     "linux-firmware-qlogic"
-    "zed"
+    "firefox-developer-edition"
+    "firefox-developer-edition-i18n-de"
 )
 
 # ---------------------------------------------------------------------------
