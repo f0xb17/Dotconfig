@@ -37,6 +37,7 @@ fonts=(
     "ttf-hack-nerd"
     "ttf-jetbrains-mono-nerd"
     "noto-fonts"
+    "ttf-firacode-nerd"
 )
 
 # ---------------------------------------------------------------------------
