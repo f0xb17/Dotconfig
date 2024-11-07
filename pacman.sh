@@ -20,6 +20,7 @@ sdks=(
     "ninja"
     "gdb"
     "nodejs"
+    "deno"
     "npm"
     "python"
     "jdk-openjdk"
