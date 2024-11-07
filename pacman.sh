@@ -8,8 +8,6 @@ apps=(
     "gufw"
     "alacritty"
     "linux-firmware-qlogic"
-    "firefox-developer-edition"
-    "firefox-developer-edition-i18n-de"
 )
 
 # ---------------------------------------------------------------------------
