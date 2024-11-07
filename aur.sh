@@ -4,15 +4,11 @@ aur_apps=(
     "visual-studio-code-bin"
     "brother-mfc-l2710dw"
     "etcher-bin"
+    "brave-bin"
     "zoom"
     "aic94xx-firmware"
     "wd719x-firmware"
     "upd72020x-fw"
-    "android-studio"
-    "intellij-idea-ultimate-edition"
-    "intellij-idea-ultimate-edition-jre"
-    "webstorm"
-    "webstorm-jre"
 )
 
 # ---------------------------------------------------------------------------
