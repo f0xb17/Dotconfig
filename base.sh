@@ -45,6 +45,7 @@ packages=(
     "fd"
     "fisher"
     "starship"
+    "rofi"
 )
 
 for package in "${packages[@]}"; do
