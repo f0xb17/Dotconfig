@@ -32,7 +32,6 @@ packages=(
     "zenity"
     "zxing-cpp"
     "xvidcore"
-    "xwaylandvideobridge"
     "xorg-xwayland"
     "wget"
     "whois"
