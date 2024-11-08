@@ -6,7 +6,7 @@ apps=(
     "vlc"
     "obs-studio"
     "gufw"
-    "kitty
+    "kitty"
     "linux-firmware-qlogic"
 )
 
