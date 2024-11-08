@@ -9,7 +9,7 @@ cp -r files/mkinitcpio.conf $HOME/.dotconf
 echo "Copying root.conf"
 cp -r files/root.conf $HOME/.dotconf
 echo "Copying nvidia.conf"
-cp -r files/nvidia.conf $HOME/.dotconf#
+cp -r files/nvidia.conf $HOME/.dotconf
 echo "Copying environment"
 cp -r files/environment $HOME/.dotconf
 
