@@ -59,7 +59,7 @@ fi
 
 # ./zsh.sh
 
-chsh -s $(which zsh) # Setting zsh as standard shell. Root password needed!
+chsh -s $(which fish) # Setting fish as standard shell. Root password needed!
 
 # ---------------------------------------------------------------------------
 
