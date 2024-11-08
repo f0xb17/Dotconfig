@@ -9,6 +9,8 @@ aur_apps=(
     "aic94xx-firmware"
     "wd719x-firmware"
     "upd72020x-fw"
+    "intellij-idea-ultimate-edition"
+    "intellij-idea-ultimate-edition-jre"
 )
 
 # ---------------------------------------------------------------------------
