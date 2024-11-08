@@ -14,7 +14,7 @@ packages=(
     "bluez-utils"
     "cups"
     "cups-pdf"
-    "zsh"
+    "fish"
     "which"
     "github-cli"
     "fzf"
@@ -42,6 +42,8 @@ packages=(
     "rsync"
     "reflector"
     "bat"
+    "fd"
+    "fisher"
 )
 
 for package in "${packages[@]}"; do
