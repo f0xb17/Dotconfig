@@ -17,8 +17,6 @@ packages=(
     "zsh"
     "which"
     "github-cli"
-    "zsh-autosuggestions"
-    "zsh-syntax-highlighting"
     "fzf"
     "ufw"
     "zoxide"
