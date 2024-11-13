@@ -46,6 +46,7 @@ packages=(
     "fisher"
     "starship"
     "rofi-wayland"
+    "xclip"
 )
 
 for package in "${packages[@]}"; do
