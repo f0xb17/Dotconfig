@@ -1,0 +1,41 @@
+[general]
+import = [
+    "theme.toml"
+]
+live_config_reload = true
+ipc_socket = true
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+dimensions = { columns = 150, lines = 50 }
+decorations = "Full"
+startup_mode = "Windowed"
+dynamic_title = true
+padding = { x = 20, y = 20 }
+
+[font]
+size = 13.0
+
+[font.bold]
+family = "FiraCode Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "FiraCode Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font Mono"
+style = "Regular"
+
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+blink_interval = 650
+unfocused_hollow = false
+thickness = 0.20
