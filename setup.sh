@@ -285,7 +285,6 @@ aursoftware=(
     "visual-studio-code-bin"
     "brother-mfc-l2710dw"
     "etcher-bin"
-    "brave-bin"
     "zoom"
     "aic94xx-firmware"
     "wd719x-firmware"
