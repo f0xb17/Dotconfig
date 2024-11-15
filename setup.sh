@@ -207,6 +207,7 @@ software=(
     "gufw"
     "linux-firmware-qlogic"
     "neovim"
+    "zed"
 )
 
 # ---------------------------------------------------------------------------
@@ -284,7 +285,6 @@ done
 #### AUR PACKAGES ####
 
 aursoftware=(
-    "visual-studio-code-bin"
     "brother-mfc-l2710dw"
     "etcher-bin"
     "zoom"
