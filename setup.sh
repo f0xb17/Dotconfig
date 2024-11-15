@@ -39,7 +39,7 @@ if [[ $? -eq 0 ]]; then
   echo "--- Successfully created dotfiles ---"
 fi
 
-mkdir /etc/cmdline.d/
+sudo mkdir /etc/cmdline.d/
 if [[ $? -eq 0 ]]; then
   echo "--- Successfully created cmdline.d ---"
 fi
