@@ -1,5 +1,7 @@
 #!/bin/sh
 
+exec > >(tee -a "logfile.log") 2>&1
+
 #### PERFORMIG SYSTEMUPDATE ####
 
 echo "#### PERFORMING SYSTEMUPDATE ####"
