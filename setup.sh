@@ -412,11 +412,6 @@ echo "--- Moving Fish Config"
 mv .config/fish/config.fish ~/.config/fish/
 mv .config/fish/fish_plugins ~/.config/fish/
 
-source ~/.config/fish/config.fish
-if [[ $? -eq 0 ]]; then
-  echo "--- Successfully Reloaded fish config"
-fi
-
 #### INSTALLING Terminalemulator ####
 
 echo "#### USING $term AS TERMINAL EMULATOR ####"
