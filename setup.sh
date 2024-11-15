@@ -542,9 +542,6 @@ yay -Yc
 
 #### FINISHING TOUCHES ####
 
-echo "--- Running Fisher Update"
-fisher update
-
 echo "--- Running mkinitcpio"
 sudo mkinitcpio -P
 
