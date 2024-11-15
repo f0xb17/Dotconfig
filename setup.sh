@@ -417,9 +417,9 @@ mv .config/fish/fish_plugins ~/.config/fish/
 echo "#### USING $term AS TERMINAL EMULATOR ####"
 sudo pacman -S --needed --noconfirm $term
 if [[ $? -eq 0 ]]; then
-  echo "--- Successfully Installed: Kitty"
+  echo "--- Successfully Installed: $term"
 else 
-  echo "--- ERROR INSTALLING: Kitty"
+  echo "--- ERROR INSTALLING: $term"
 fi
 
 if [[ "$2" == "-wez" ]]; then
