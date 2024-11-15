@@ -522,9 +522,9 @@ elif [[ "$3" == "-all" ]]; then
   yay -S --noconfirm brave-bin
 
   if [[ $? -eq 0 ]]; then
-    echo "--- Successfully Installed: Firefox Developer Edition"
+    echo "--- Successfully Installed: Brave Browser"
   else 
-    echo "--- ERROR INSTALLING: Firefox Developer Edition"
+    echo "--- ERROR INSTALLING: Brave Browser"
   fi
 fi
 
