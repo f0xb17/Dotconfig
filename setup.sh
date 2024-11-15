@@ -402,6 +402,12 @@ echo "#### TERMINAL CONFIGURATIONN ####"
 echo "--- Starting Firewall Service & set to default to reject"
 chsh -s $(which fish)
 
+
+mkdir ~/.config/fish
+if [[ $? -eq 0 ]]; then
+  echo "--- Successfully created Folder: Fish"
+fi
+
 echo "--- Moving Fish Config"
 mv .config/fish/config.fish ~/.config/fish/
 mv .config/fish/fish_plugins ~/.config/fish/
