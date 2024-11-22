@@ -6,18 +6,18 @@ local mux = wezterm.mux
 local config = {}
 
 -- Theme Configuration
-config.color_scheme = 'Catppuccin Mocha (Gogh)'
+config.color_scheme = 'tokyonight_night'
 
 -- Font Configuration
 config.font = wezterm.font("FiraCode Nerd Font Mono")
 config.font_size = 13
-config.line_height = 1.5
+config.line_height = 1.1
 
 -- Window Configuration
 config.enable_tab_bar = false
 -- config.initial_cols = 150
 -- config.initial_rows = 50
-config.window_background_opacity = 0.9
+config.window_background_opacity = 0.95
 config.window_decorations = "NONE"
 
 -- Start window maximized
