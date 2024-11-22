@@ -10,6 +10,7 @@ config.color_scheme = 'Catppuccin Mocha (Gogh)'
 -- Font Configuration
 config.font = wezterm.font("FiraCode Nerd Font Mono")
 config.font_size = 13
+config.line_height = 1.5
 
 -- Window Configuration
 config.enable_tab_bar = false
