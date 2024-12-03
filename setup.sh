@@ -206,8 +206,6 @@ software=(
     "obs-studio"
     "gufw"
     "linux-firmware-qlogic"
-    "neovim"
-    "zed"
 )
 
 # ---------------------------------------------------------------------------
@@ -285,6 +283,7 @@ aursoftware=(
     "aic94xx-firmware"
     "wd719x-firmware"
     "upd72020x-fw"
+    "visual-studio-code-bin"
 )
 
 # ---------------------------------------------------------------------------
