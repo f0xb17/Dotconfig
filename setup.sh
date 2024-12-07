@@ -74,7 +74,7 @@ fi
 
 if [[ "$1" == "-hypr" ]]; then
   echo "#### DOING Hyprland THINGS ####"
-  sudo pacman -S --needed --noconfirm wofi waybar swaync nwg-dock-hyprland hyprpaper gnome-keyring
+  sudo pacman -S --needed --noconfirm wofi waybar swaync nwg-dock-hyprland hyprpaper gnome-keyring xdg-desktop-portal-gtk polkit-gnome
   if [[ $? -eq 0 ]]; then
     echo "--- Successfully installed software: Hyprland"
   fi
@@ -158,6 +158,7 @@ software=(
     "obs-studio"
     "gufw"
     "linux-firmware-qlogic"
+    "spotify-launcher"
 )
 
 # ---------------------------------------------------------------------------
@@ -238,6 +239,7 @@ aursoftware=(
     "ast-firmware"
     "hyprshot"
     "visual-studio-code-bin"
+    "anydesk-bin"
 )
 
 # ---------------------------------------------------------------------------
@@ -291,9 +293,6 @@ done
 #### FLATPAK SOFTWARE ####
 
 flatpak=(
-    "com.spotify.Client"
-    "com.anydesk.Anydesk"
-    "io.github.shiftey.Desktop"
 )
 
 # ---------------------------------------------------------------------------
