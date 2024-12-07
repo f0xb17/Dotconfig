@@ -74,7 +74,7 @@ fi
 
 if [[ "$1" == "-hypr" ]]; then
   echo "#### DOING Hyprland THINGS ####"
-  sudo pacman -S --needed --noconfirm wofi waybar swaync nwg-dock-hyprland hyprpaper gnome-keyring xdg-desktop-portal-gtk polkit-gnome adw-gtk3-theme
+  sudo pacman -S --needed --noconfirm wofi waybar swaync nwg-dock-hyprland hyprpaper gnome-keyring xdg-desktop-portal-gtk polkit-gnome adw-gtk-theme
   if [[ $? -eq 0 ]]; then
     echo "--- Successfully installed software: Hyprland"
   fi
