@@ -380,16 +380,6 @@ starship preset pastel-powerline -o ~/.config/starship.toml
 echo "--- Install Tmux Plugin Manager"
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
-echo "--- Creating Tmux Config"
-mkdir ~/.config/tmux
-mv .config/tmux/.tmux.conf ~/.config/tmux/
-
-ln -sf  ~/.config/tmux/.tmux.conf ~/
-if [[ $? -eq 0 ]]; then
-  echo "--- Successfully created Symlink: .tmux.conf"
-fi
-
-tmux source ~/.tmux.conf
 
 #### Fastfetch Stuff ####
 
