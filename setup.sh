@@ -36,65 +36,6 @@ if [[ $? -eq 0 ]]; then
   echo "--- Successfully created icon folder in .local/share/ ---"
 fi
 
-mkdir ~/.dotfiles
-if [[ $? -eq 0 ]]; then
-  echo "--- Successfully created dotfiles ---"
-fi
-
-sudo mkdir /etc/cmdline.d/
-if [[ $? -eq 0 ]]; then
-  echo "--- Successfully created cmdline.d ---"
-fi
-
-# ---------------------------------------------------------------------------
-
-#### CREATING SYMLINKS ####
-
-echo "#### COPYING FILES ####"
-
-cp -r etc/makepkg.conf ~/.dotfiles/
-
-sudo ln -sf ~/.dotfiles/makepkg.conf /etc/
-if [[ $? -eq 0 ]]; then
-  echo "--- Successfully created Symlink: makepkg.conf"
-fi
-
-# ---------------------------------------------------------------------------
-
-cp -r etc/mkinitcpio.conf ~/.dotfiles/
-
-sudo ln -sf ~/.dotfiles/mkinitcpio.conf /etc/
-if [[ $? -eq 0 ]]; then
-  echo "--- Successfully created Symlink: mkinitcpio.conf"
-fi
-
-# ---------------------------------------------------------------------------
-
-cp -r etc/cmdline.d/root.conf ~/.dotfiles/
-
-sudo ln -sf ~/.dotfiles/root.conf /etc/cmdline.d/
-if [[ $? -eq 0 ]]; then
-  echo "--- Successfully created Symlink: root.conf"
-fi
-
-# ---------------------------------------------------------------------------
-
-cp -r etc/modprobe.d/nvidia.conf ~/.dotfiles/
-
-sudo ln -sf ~/.dotfiles/nvidia.conf /etc/modprobe.d/
-if [[ $? -eq 0 ]]; then
-  echo "--- Successfully created Symlink: nvidia.conf"
-fi
-
-# ---------------------------------------------------------------------------
-
-cp -r etc/environment ~/.dotfiles/
-
-sudo ln -sf ~/.dotfiles/environment /etc/
-if [[ $? -eq 0 ]]; then
-  echo "--- Successfully created Symlink: environment"
-fi
-
 # ---------------------------------------------------------------------------
 
 #### KDE THINGS ####
@@ -124,6 +65,18 @@ if [[ "$1" == "-gnome" ]]; then
   sudo pacman -Rcns gnome-music totem yelp gnome-contacts gnome-clocks gnome-maps gnome-weather epiphany
   if [[ $? -eq 0 ]]; then
     echo "--- Successfully removed software: GNOME Standard"
+  fi
+fi
+
+# ---------------------------------------------------------------------------
+
+#### GNOME THINGS ####
+
+if [[ "$1" == "-hypr" ]]; then
+  echo "#### DOING Hyprland THINGS ####"
+  sudo pacman -S --needed --noconfirm wofi waybar swaync nwg-dock-hyprland hyprpaper gnome-keyring
+  if [[ $? -eq 0 ]]; then
+    echo "--- Successfully installed software: Hyprland"
   fi
 fi
 
@@ -170,7 +123,6 @@ base=(
     "fisher"
     "starship"
     "xclip"
-    "tmux"
     "tree"
 )
 
@@ -283,6 +235,8 @@ aursoftware=(
     "aic94xx-firmware"
     "wd719x-firmware"
     "upd72020x-fw"
+    "ast-firmware"
+    "hyprshot"
     "visual-studio-code-bin"
 )
 
@@ -318,7 +272,6 @@ done
 # ---------------------------------------------------------------------------
 
 aurfonts=(
-    "apple-fonts"
 )
 
 # ---------------------------------------------------------------------------
