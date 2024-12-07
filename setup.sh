@@ -232,7 +232,6 @@ done
 
 aursoftware=(
     "brother-mfc-l2710dw"
-    "etcher-bin"
     "zoom"
     "aic94xx-firmware"
     "wd719x-firmware"
