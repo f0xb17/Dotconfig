@@ -74,7 +74,7 @@ fi
 
 if [[ "$1" == "-hypr" ]]; then
   echo "#### DOING Hyprland THINGS ####"
-  sudo pacman -S --needed --noconfirm wofi waybar swaync nwg-dock-hyprland hyprpaper gnome-keyring xdg-desktop-portal-gtk polkit-gnome
+  sudo pacman -S --needed --noconfirm wofi waybar swaync nwg-dock-hyprland hyprpaper gnome-keyring xdg-desktop-portal-gtk polkit-gnome adw-gtk3-theme
   if [[ $? -eq 0 ]]; then
     echo "--- Successfully installed software: Hyprland"
   fi
@@ -296,16 +296,6 @@ flatpak=(
 )
 
 # ---------------------------------------------------------------------------
-
-for package in "${flatpak[@]}"; do
-    echo "#### INSTALLING Flatpak: $package ####"
-    flatpak install -y flathub ${package}
-    if [[ $? -eq 0 ]]; then
-      echo "--- Successfully Installed: $package"
-    else 
-      echo "--- ERROR INSTALLING: $package"
-    fi
-done
 
 # ---------------------------------------------------------------------------
 
