@@ -85,7 +85,7 @@ fi
 
 if [[ "$1" == "-i3" ]]; then
   echo "#### DOING Hyprland THINGS ####"
-  sudo pacman -S --needed --noconfirm rofi maim polybar gnome-keyring xdg-desktop-portal xdg-desktop-portal-gtk polkit-gnome adw-gtk-theme libsecret playerctl feh picom dunst setxkbmap blueman nwg-look yazi
+  sudo pacman -S --needed --noconfirm rofi maim polybar gnome-keyring xdg-desktop-portal xdg-desktop-portal-gtk polkit-gnome adw-gtk-theme libsecret playerctl feh picom dunst xorg-setxkbmap blueman nwg-look yazi
   if [[ $? -eq 0 ]]; then
     echo "--- Successfully installed software: i3"
   fi
