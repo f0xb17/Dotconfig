@@ -1,7 +1,5 @@
 #!/bin/sh
 
-exec > >(tee -a "logfile.log") 2>&1
-
 #### PERFORMIG SYSTEMUPDATE ####
 
 echo "#### PERFORMING SYSTEMUPDATE ####"
@@ -70,7 +68,7 @@ fi
 
 # ---------------------------------------------------------------------------
 
-#### GNOME THINGS ####
+#### Hyprland THINGS ####
 
 if [[ "$1" == "-hypr" ]]; then
   echo "#### DOING Hyprland THINGS ####"
@@ -78,6 +76,18 @@ if [[ "$1" == "-hypr" ]]; then
   sudo pacman -Rcns --noconfirm kwallet
   if [[ $? -eq 0 ]]; then
     echo "--- Successfully installed software: Hyprland"
+  fi
+fi
+
+# ---------------------------------------------------------------------------
+
+#### i3 THINGS ####
+
+if [[ "$1" == "-i3" ]]; then
+  echo "#### DOING Hyprland THINGS ####"
+  sudo pacman -S --needed --noconfirm rofi polybar gnome-keyring xdg-desktop-portal xdg-desktop-portal-gtk polkit-gnome adw-gtk-theme libsecret playerctl feh picom dunst setxkbmap blueman nwg-look yazi
+  if [[ $? -eq 0 ]]; then
+    echo "--- Successfully installed software: i3"
   fi
 fi
 
@@ -160,6 +170,7 @@ software=(
     "gufw"
     "linux-firmware-qlogic"
     "spotify-launcher"
+    "helix"
 )
 
 # ---------------------------------------------------------------------------
