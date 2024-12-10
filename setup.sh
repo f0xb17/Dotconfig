@@ -251,12 +251,9 @@ aursoftware=(
     "visual-studio-code-bin"
     "anydesk-bin"
     "discord-canary"
+    "discord-canary-wayland-hook"
     "intellij-idea-community-edition-jre"
 )
-
-if [[ "$1" != "i3" ]]; then
-  yay -S --noconfirm discord-canary-wayland-hook
-fi
 
 # ---------------------------------------------------------------------------
 
