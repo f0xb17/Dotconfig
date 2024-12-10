@@ -164,7 +164,6 @@ cd ../ && rm -rf yay
 
 software=(
     "bitwarden"
-    "discord"
     "vlc"
     "obs-studio"
     "gufw"
@@ -251,6 +250,7 @@ aursoftware=(
     "hyprshot"
     "visual-studio-code-bin"
     "anydesk-bin"
+    "discord-canary"
 )
 
 # ---------------------------------------------------------------------------
