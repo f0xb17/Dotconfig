@@ -251,6 +251,7 @@ aursoftware=(
     "visual-studio-code-bin"
     "anydesk-bin"
     "discord-canary"
+    "discord-canary-wayland-hook"
 )
 
 # ---------------------------------------------------------------------------
