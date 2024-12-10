@@ -251,6 +251,7 @@ aursoftware=(
     "visual-studio-code-bin"
     "anydesk-bin"
     "discord-canary"
+    "intellij-idea-community-edition-jre"
 )
 
 if [[ "$1" != "i3" ]]; then
